@@ -1,0 +1,72 @@
+:root{--colorLight:#0f97ff;--colorHover:#41a1ff}
+.article-act h2{font-size: 22px;}
+.art-rule{margin: 0 0 30px;position: relative;}
+.art-rule ul{background: #f7f7f7;padding: 20px 30px;}
+.art-rule>ul>li{margin: 15px 0;font-size: 15px;}
+.gift-list ul{display: flex;justify-content: center;}
+.gift-list li{text-align: center;width: 142px;margin: 0 48px;}
+.label-act{width: 62px;height: 20px;line-height: 20px;color: #fff;border-radius: 10px;font-size: 12px;margin: 5px auto;}
+.label-act.act1{background: #ffbd2e}
+.label-act.act2{background: #e7bd81}
+.label-act.act3{background: #f94b26}
+.gift-name{font-size: 15px;}
+.gift-des{color: #999;font-size: 12px;}
+.art-tit{display: flex;justify-content: space-between;line-height: 80px;}
+.ico-act-chg{width: 20px;height: 12px;background: url(../img/act/spr-act.png) no-repeat;display: inline-block;vertical-align: middle;filter: grayscale(1)}
+.link-chg{font-size:12px;color: #666;}
+.link-chg:hover{color: var(--colorLight);}
+.link-chg:hover .ico-act-chg{filter: none;}
+.art-intro{padding: 0 0 30px;}
+.art-intro-list ul{display: flex;flex-wrap: wrap;}
+.art-intro-list li{position: relative;width: 226px;height: 226px;margin: 0 41px 40px 0;}
+.art-intro-list li:nth-child(3n){margin-right: 0;}
+.art-intro-list .bg{height: 130px;background-size: cover;}
+.art-intro-main{position: absolute;width:100%;height: 120px;bottom: 0; box-sizing: border-box; background: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,1) 20%);padding:10px 15px;border: solid 1px #ebebeb;border-top: 0;}
+.art-intro-main .art-name{font-size: 16px;height: 46px;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;word-break: break-all;}
+.art-intro-main .txt{color: #999;font-size: 12px;margin: 8px 0 0;display: none;}
+.art-intro-main .txt a{color: #999;display: inline-block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;vertical-align: top;max-width: 10em;}
+.btn-act-write{height: 26px;line-height: 26px;display: inline-block;color:var(--colorLight);border: solid 1px currentColor;text-align: center;margin: 18px 0 0;padding: 0 15px;}
+.btn-act-write:hover{background: var(--colorLight);color: #fff;}
+.img-gift{width: 82px;}
+
+.side-gift{position: fixed;top: 50%;margin-top: -50px; right:0;width: 59px; height:104px;background: url(../img/act/side-gift.png) no-repeat;animation: gift .8s steps(7) infinite;z-index: 9}
+.side-close{background: url(../img/act/spr-act.png) -20px 0 no-repeat;width: 20px;height: 20px;position: absolute;right: 0;top:-15px;}
+.link-gift{width: 100%;height: 100%;display: block;}
+
+.side-gift-1{position: fixed;top: 50%;margin-top: -50px; right:-46px;width: 105px;height: 124px;background: url(../img/act/spr-act.png) 0 -20px no-repeat;transition: .3s}
+.side-gift-1:hover{transform: translate3d(-36px,0,0)}
+.side-gift-1 .side-close{right: 40px;top: -3px;}
+.ico-expired{width: 206px;height: 125px;background: url(../img/act/spr-act.png) 0 -150px no-repeat;position: absolute;bottom: 20px;right: 20px;}
+
+@keyframes gift{
+    0%{background-position: 0;}
+    100%{background-position: -413px 0;}
+}
+
+@media only screen and (min-width:1400px){
+    .art-intro-list li{width: 230px;margin-right: 40px;}
+    .art-intro-list li:nth-child(3n){margin-right: 40px;}
+    .art-intro-list li:nth-child(4n){margin-right:0;}
+}
+
+@media only screen and (max-width:768px){
+    .art-tit{height: .8rem;line-height: .8rem;}
+    .article-act h2{font-size: .36rem;margin:0 .3rem ;line-height: .8rem;}
+    .link-chg{margin-right: .3rem;}
+    .art-rule ul{padding: .2rem .3rem;}
+    .ico-expired{zoom:.8}
+    .gift-list ul{padding:.2rem 0;}
+    .gift-list li{margin: 0 .1rem;}
+    .art-rule>ul>li{font-size: .24rem;}
+    .gift-name{font-size: .2rem;}
+    .gift-des{font-size: .18rem;}
+    .art-intro-list{margin: 0 .3rem;}
+    .art-intro-list .bg{height: 2rem;}
+    .art-intro-list li{width: 2.73rem;margin: 0 .3rem .2rem 0;height: 3.2rem;}
+    .art-intro-list li:nth-child(3n){margin: 0 .3rem 0 0;}
+    .art-intro-list li:nth-child(2n){margin: 0;}
+    .art-intro-main{padding: .1rem .15rem;height: 1.6rem;}
+    .art-intro-main .art-name{font-size: .22rem;}
+    .btn-act-write{margin: .2rem 0 0;height: .4rem;line-height: .4rem;font-size: .2rem;padding:0 .2rem;}
+    .art-intro-main .art-name{height: .64rem;}
+}

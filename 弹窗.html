@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/article.css">
+    <style type="text/css">
+        .cover-article{display: block;position: absolute;height: auto;}	
+        .pop-article{margin:10px;display:inline-block;left: 0;top: 0;}
+    </style>
+    <title>弹窗</title>
+</head>
+<body>
+<div class="cover-article">
+    <div class="pop-article" style="display:none;">
+        <div class="pop-hd">
+            <div class="pop-tab">
+                <a href="#">本地视频</a>
+                <a href="#" class="cur">在线视频</a>
+            </div>
+            <a href="#" title="关闭" class="pop-close"></a>
+        </div>
+        <div class="pop-body">
+            <div class="pop-addr">
+                <p>请复制粘贴视频源文件地址(视频格式必须是SWF)</p>
+                <div class="addr-box">
+                    <input type="text" class="ipt-addr"  /><a href="#" class="btn-pop-submit">确定</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="pop-article">
+        <div class="pop-hd">
+            <a href="#" title="关闭" class="pop-close"></a>
+        </div>
+        <div class="pop-body">
+            <div class="pop-note">
+                <span class="ico-tips ico-warn"></span>
+                <p>请上传<span>宽度大于1280，高度大于650</span>的图片</p>
+            </div>
+        </div>
+        <div class="pop-ft">
+            <a href="#" class="btn-pop-ok">我知道了</a>
+        </div>
+    </div>
+
+    <div class="pop-article">
+        <div class="pop-hd">
+            <a href="#" title="关闭" class="pop-close"></a>
+        </div>
+        <div class="pop-body">
+            <div class="pop-note">
+                <p><span>您还没添加首图，将不会被推荐到影评库哦~</span></p>
+            </div>
+        </div>
+        <div class="pop-ft">
+            <a href="#" class="btn-pop-ok">上传首图</a>
+            <a href="#" class="btn-pop-ok btn-sec">跳过，直接发表&gt;</a>
+        </div>
+    </div>
+    <div class="pop-article pop-w1">
+        <div class="pop-hd">
+            <h3 class="tit-agree">作者原创协议</h3>
+            <a href="#" title="关闭" class="pop-close"></a>
+        </div>
+        <div class="pop-agree">
+            <p class="txt-agree-1">《豆瓣原创声明》是豆瓣用户对其独立完成创作的作品 (不包括改编、翻译、注释、整理、汇编他人已有作品而产生的新作品等) 的声明。豆瓣用户在发起原创声明后，其作品会被标识为豆瓣原创作品。</p>
+            <ul>
+                <li>1. 抄袭、剽窃、歪曲、篡改他人作品的内容；</li>
+                <li>2. 色情、激进时政、意识形态、暴力、不实信息等方面的内容；</li>
+                <li>3. 违反法律法规、侵犯第三方合法权益，及违反《豆瓣使用协议》《豆瓣社区指导原则》等的内容；</li>
+                <li>4. 其他豆瓣认为不适宜公开发布的内容。</li>
+                针对违反《豆瓣原创声明》的用户，根据情节严重程度，豆瓣有权予以处罚。处罚方式包括取消原创声明资格、禁言3天至30天等。</li>
+                <li>5. 其他豆瓣认为不适宜公开发布的内容。</li>
+                针对违反《豆瓣原创声明》的用户，根据情节严重程度，豆瓣有权予以处罚。处罚方式包括取消原创声明资格、禁言3天至30天等。</li>
+            </ul>
+        </div>
+        <div class="pop-ft">
+            <a href="#" class="btn-pop-ok">我知道了</a>
+        </div>
+    </div>
+
+    <div class="pop-upload">
+        <div class="upload-clip">
+            
+        </div>
+        <div class="wp-pop-btn">
+            <a href="#">确定</a><a href="#" class="btn-cancel">取消</a>
+        </div>
+    </div>
+
+    <!-- 弹窗 -->
+    <div class="pop-opt">
+        <p class="txt-del"><span class="ico-s-note"></span>确认要删除这篇影评？</p>
+        <div class="pop-opt-btn">
+            <a href="#">确定</a><a href="#">取消</a>
+        </div>
+    </div>
+    <!-- 弹窗 -->
+
+</div>
+
+</body>
+</html>
