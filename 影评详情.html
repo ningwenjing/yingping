@@ -267,6 +267,7 @@
                 </div>
                 <div class="comment-write-main"><!-- 注：获取焦点时，comment-write-main请叠加类名“focus” -->
                     <textarea class="area-write" placeholder="你看想要说点什么..."></textarea>
+                    <!-- <input type="text" class="input-write" placeholder="你看想要说点什么..." /> -->
                     <!-- <a href="#" class="link-login-tips"><span>登录</span>发评论，和千万成雷友互动</a> -->
                     <div class="write-bottom">
                         <p class="txt-num"><span>0</span>/100</p>
@@ -310,7 +311,8 @@
                                     </ul>
                             </div>
                         </div>
-                        <a href="#" class="btn-write">发表评论</a>
+                        <a href="#" class="btn-write disable">发表评论</a>
+                        <a href="#" class="link-f-comment"><i class="ico-f-comment"></i> <span class="num">99</span></a>
                     </div>
                 </div>
             </div>
@@ -508,46 +510,46 @@
                                         <a href="#" class="btn-send disable">发送</a>
                                         <div class="face">
                                         <a href="javascript:;" class="ico-face"></a>							
-							<!-- 表情 -->
-							<div class="emoji">
-                                <ul class="scroll-box">
-                                    <li title="开心"><span class="ico-emoji emoji-1F604"></span></li>
-                                    <li title="可爱"><span class="ico-emoji emoji-1F60A"></span></li>
-                                    <li title="大笑"><span class="ico-emoji emoji-1F603"></span></li>
-                                    <li title="憨笑"><span class="ico-emoji emoji-263A"></span></li>
-                                    <li title="眨眼"><span class="ico-emoji emoji-1F609"></span></li>
-                                    <li title="色"><span class="ico-emoji emoji-1F60D"></span></li>
-                                    <li title="爱你"><span class="ico-emoji emoji-1F618"></span></li>
-                                    <li title="亲亲"><span class="ico-emoji emoji-1F61A"></span></li>
-                                    <li title="脸红"><span class="ico-emoji emoji-1F633"></span></li>
-                                    <li title="满意"><span class="ico-emoji emoji-1F60C"></span></li>
-                                    <li title="傻笑"><span class="ico-emoji emoji-1F601"></span></li>
-                                    <li title="鬼脸"><span class="ico-emoji emoji-1F61C"></span></li>
-                                    <li title="吐舌"><span class="ico-emoji emoji-1F61D"></span></li>
-                                    <li title="无语"><span class="ico-emoji emoji-1F612"></span></li>
-                                    <li title="得意"><span class="ico-emoji emoji-1F60F"></span></li>
-                                    <li title="汗"><span class="ico-emoji emoji-1F613"></span></li>
-                                    <li title="失望"><span class="ico-emoji emoji-1F614"></span></li>
-                                    <li title="低落"><span class="ico-emoji emoji-1F61E"></span></li>
-                                    <li title="痛苦"><span class="ico-emoji emoji-1F616"></span></li>
-                                    <li title="焦虑"><span class="ico-emoji emoji-1F622"></span></li>
-                                    <li title="担心"><span class="ico-emoji emoji-1F630"></span></li>
-                                    <li title="震惊"><span class="ico-emoji emoji-1F628"></span></li>
-                                    <li title="悔恨"><span class="ico-emoji emoji-1F623"></span></li>
-                                    <li title="鼻涕"><span class="ico-emoji emoji-1F625"></span></li>
-                                    <li title="哭"><span class="ico-emoji emoji-1F62D"></span></li>
-                                    <li title="大哭"><span class="ico-emoji emoji-1F602"></span></li>
-                                    <li title="晕"><span class="ico-emoji emoji-1F632"></span></li>
-                                    <li title="惊恐"><span class="ico-emoji emoji-1F631"></span></li>
-                                    <li title="心烦"><span class="ico-emoji emoji-1F620"></span></li>
-                                    <li title="生气"><span class="ico-emoji emoji-1F621"></span></li>
-                                    <li title="睡觉"><span class="ico-emoji emoji-1F62A"></span></li>
-                                    <li title="口罩"><span class="ico-emoji emoji-1F637"></span></li>
-                                   
-                                    </ul>
-                                </div>
-                                </div>
-						    </div>	
+							            <!-- 表情 -->
+                                        <div class="emoji">
+                                            <ul class="scroll-box">
+                                                <li title="开心"><span class="ico-emoji emoji-1F604"></span></li>
+                                                <li title="可爱"><span class="ico-emoji emoji-1F60A"></span></li>
+                                                <li title="大笑"><span class="ico-emoji emoji-1F603"></span></li>
+                                                <li title="憨笑"><span class="ico-emoji emoji-263A"></span></li>
+                                                <li title="眨眼"><span class="ico-emoji emoji-1F609"></span></li>
+                                                <li title="色"><span class="ico-emoji emoji-1F60D"></span></li>
+                                                <li title="爱你"><span class="ico-emoji emoji-1F618"></span></li>
+                                                <li title="亲亲"><span class="ico-emoji emoji-1F61A"></span></li>
+                                                <li title="脸红"><span class="ico-emoji emoji-1F633"></span></li>
+                                                <li title="满意"><span class="ico-emoji emoji-1F60C"></span></li>
+                                                <li title="傻笑"><span class="ico-emoji emoji-1F601"></span></li>
+                                                <li title="鬼脸"><span class="ico-emoji emoji-1F61C"></span></li>
+                                                <li title="吐舌"><span class="ico-emoji emoji-1F61D"></span></li>
+                                                <li title="无语"><span class="ico-emoji emoji-1F612"></span></li>
+                                                <li title="得意"><span class="ico-emoji emoji-1F60F"></span></li>
+                                                <li title="汗"><span class="ico-emoji emoji-1F613"></span></li>
+                                                <li title="失望"><span class="ico-emoji emoji-1F614"></span></li>
+                                                <li title="低落"><span class="ico-emoji emoji-1F61E"></span></li>
+                                                <li title="痛苦"><span class="ico-emoji emoji-1F616"></span></li>
+                                                <li title="焦虑"><span class="ico-emoji emoji-1F622"></span></li>
+                                                <li title="担心"><span class="ico-emoji emoji-1F630"></span></li>
+                                                <li title="震惊"><span class="ico-emoji emoji-1F628"></span></li>
+                                                <li title="悔恨"><span class="ico-emoji emoji-1F623"></span></li>
+                                                <li title="鼻涕"><span class="ico-emoji emoji-1F625"></span></li>
+                                                <li title="哭"><span class="ico-emoji emoji-1F62D"></span></li>
+                                                <li title="大哭"><span class="ico-emoji emoji-1F602"></span></li>
+                                                <li title="晕"><span class="ico-emoji emoji-1F632"></span></li>
+                                                <li title="惊恐"><span class="ico-emoji emoji-1F631"></span></li>
+                                                <li title="心烦"><span class="ico-emoji emoji-1F620"></span></li>
+                                                <li title="生气"><span class="ico-emoji emoji-1F621"></span></li>
+                                                <li title="睡觉"><span class="ico-emoji emoji-1F62A"></span></li>
+                                                <li title="口罩"><span class="ico-emoji emoji-1F637"></span></li>
+                                            
+                                                </ul>
+                                            </div>
+                                            </div>
+                                        </div>	
                                     </div>
                                 </div>
                             </div>
@@ -559,7 +561,7 @@
             </div>
             <!-- 评论列表 结束 -->
             <!-- 移动端评论框 -->
-            <div class="comment-fixed">
+            <div class="comment-fixed" style="display:none">
                 <a href="#" class="link-f-write">说说你的想法</a>
                 <a href="#" class="link-f-comment"><i class="ico-f-comment"></i> <span class="num">99</span></a>
             </div>
