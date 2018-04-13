@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/player.css">
+    <title>Document</title>
+    <style>
+        audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+            background: #000;
+        }
+        video::-internal-media-controls-download-button{
+            display: none !important;
+            width: 0;
+            height: 0;
+        }
+         video::-webkit-media-controls-mute-button,video::-webkit-media-controls-play-button,video::-webkit-media-controls-fullscreen-button {
+            filter: brightness(2);
+        }
+        video::-webkit-media-controls-current-time-display,video::-webkit-media-controls-time-remaining-display{
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+<div id="videoBox" class="rec-video" style="display:none"><!-- 竖版叠加 vertical -->
+    <div class="video-box">
+        <!-- 竖屏背景 -->
+        <div class="video-bg" style="background-image: url(http://image.7niu.n0808.com/vfnl_45df0da805cfc3487fed1fd0c230b97886f07c871.jpg);"></div>
+        <!-- 竖屏背景 END -->
+        <video  preload="auto" class="vjs-tech" id="vjs_video_3_html5_api" src="http://video.xycdn.n0808.com/7ef882919af6ee00aa09ca88bc1b0f49a5b0a951?sign=19a32121859f0dd35f43ceceaf2780da&t=5ac2a826&xsign=1522706470-09aff923b10ddc417e9ff5fca451ded4"></video>
+        <a href="javascript:;" class="ico-player" style="display:none;"></a>
+    </div>
+
+    <div class="rec-video-des">
+        <div class="rec-video-opt">
+            <a href="javascript:;" id="btnPlay" class="ico-v-play paused" title="播放">播放</a>
+            <span id="totalTime" class="total-time">02:00</span>
+            <a href="javascript:;" id="btnZoom" class="ico-v-zoom" title="全屏">全屏</a>
+            <p class="video-name">视频名称啊视频名称视频名称啊视频名称视频名称啊视频名称</p>
+            <!-- 音量 -->
+            <div class="voice">
+                <a href="javascript:;" id="btnVoice" class="ico-v-voice muted" title="音量">音量</a>
+                <div id="voiceBar" class="voice-bar">
+                    <i id="voicePro" class="voice-pro" style="height: 30%"></i>
+                    <a href="#" class="voice-drag" title="音量"></a>
+                </div>
+            </div>
+            <!-- 音量 结束-->
+        </div>
+        <div id="videoBar" class="video-bar">
+            <i id="videoPro" style="width: 50%" class="video-bar-pro"></i>
+            <i class="drag-bar" style="left: 50%;"></i>
+        </div>										
+    </div>
+
+    <!-- 播放结束显示 -->
+    <div id="videoMask" class="video-end-mask">
+        <div class="mask-con">
+            <p class="title"><span class="ico-pre-play"><i class="r1"><b class="r1 round1"></b></i><i class="r2"><b class="r2 round2"></b></i></span> 即将播放：</p>
+            <p class="des">湄公河行动精彩片段，彭于晏回味不堪往事</p>
+            <a href="javascript:;" class="link">重看一遍</a>
+        </div>
+    </div>
+
+    <div id="videoMask" class="video-end-mask">
+        <div class="mask-con">	
+            <p class="des-stop">由于您长时间离开，已暂停短视频播放</p>
+            <a href="javascript:;" class="link">继续观看</a>
+        </div>
+    </div>
+    <!-- 2017.07.13 重播 -->
+    <div id="videoMask" class="video-end-mask">
+        <div class="replay-box">
+            <a href="#" class="btn-replay" title="重播"></a><p>重播</p>
+        </div>
+    </div>
+    <!-- 重播 END -->
+    <!-- 视频加载中 -->
+    <div class="video-load">
+        <span class="ico-v-load"></span>
+    </div>
+</div>   
+<video preload="metadata" class="video-default" id="vjs_video_3_html5_api" src="http://video.xycdn.n0808.com/07cf8ec7a52b7c6863ebc01f37d018891ba00512?sign=195d505c93aeb73b905ae8462a0247d4&amp;t=5ac52935&amp;xsign=1522870581-43c5a83ccb6096979e2a0029ba19bef5" controls=""></video>
+</body>
+</html>

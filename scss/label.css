@@ -1,0 +1,18 @@
+.label-identity {
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  background: #0f97ff; }
+
+.ico-sign, .ico-media, .ico-official {
+  width: 20px;
+  height: 20px;
+  background: url(../img/spr-label.png); }
+
+.label-media {
+  background-position: -20px 0; }
+
+.label-official {
+  background-position: -40px 0; }
+
+/*# sourceMappingURL=label.css.map */

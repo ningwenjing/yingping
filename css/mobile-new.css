@@ -1,0 +1,99 @@
+@media only screen and (max-width: 768px) {
+  html, body {
+    font-size: 15.625vw; }
+
+  .article-inner {
+    width: auto; }
+
+  .wrap-article {
+    margin: 0 .2rem; }
+
+  .header {
+    width: 100%;
+    position: relative;
+    height: 58px;
+    line-height: 58px; }
+
+  .wrap-article .article-banner {
+    width: 100%;
+    height: 4.2rem;
+    border-radius: .1rem;
+    overflow: hidden; }
+
+  .banner-main {
+    bottom: .2rem;
+    width: 100%;
+    padding: 0 .3rem;
+    box-sizing: border-box; }
+    .banner-main h2 {
+      max-width: 100%;
+      margin: 0 0 .1rem 0;
+      font-size: .32rem;
+      font-weight: bold; }
+      .banner-main h2 a {
+        white-space: normal; }
+    .banner-main .article-information {
+      font-size: .22rem; }
+      .banner-main .article-information .user-name {
+        max-width: 5em; }
+      .banner-main .article-information .user-picture {
+        width: .64rem;
+        height: .64rem; }
+
+  .wrap-article .article-list {
+    width: 100%; }
+    .wrap-article .article-list .tab-list {
+      height: .6rem;
+      line-height: .6rem; }
+      .wrap-article .article-list .tab-list .cur {
+        font-size: .3rem; }
+      .wrap-article .article-list .tab-list a {
+        margin-right: .4rem;
+        font-size: .26rem; }
+
+  .article-list-box {
+    height: auto;
+    margin-top: .3rem; }
+    .article-list-box .article-image {
+      width: 2.4rem;
+      height: 1.7rem; }
+      .article-list-box .article-image .article-picture {
+        width: 2.4rem;
+        height: 1.7rem;
+        border-radius: .1rem; }
+    .article-list-box .article-des {
+      width: calc(100% - 2.6rem);
+      margin-left: .2rem;
+      padding-top: .1rem;
+      font-size: .21rem; }
+      .article-list-box .article-des h3 a {
+        font-size: .24rem;
+        font-weight: bold;
+        line-height: 1.5;
+        white-space: normal; }
+      .article-list-box .article-des .user-picture {
+        width: .42rem;
+        height: .42rem; }
+      .article-list-box .article-des .user-name {
+        max-width: 6em; }
+
+  .link-more {
+    font-size: .24rem;
+    height: .6rem;
+    line-height: .6rem; }
+
+  .text-load {
+    font-size: 12px; }
+
+  .header .top-opt,
+  .article-banner .banner-side,
+  .banner-main .date,
+  .article-information .article-praise,
+  .article-side,
+  .info-tit,
+  .info-time,
+  .com-number
+  .tag-call {
+    display: none !important; } }
+
+/*# sourceMappingURL=mobile-new.css.map */

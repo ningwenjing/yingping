@@ -1,0 +1,35 @@
+.wrap-article .label-identity {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  white-space: nowrap; }
+.wrap-article .label-sign {
+  width: 75px;
+  background: #ca8419;
+  color: #fffbdd !important;
+  font-size: 12px; }
+.wrap-article .label-media, .wrap-article .label-official {
+  background: #0f97ff;
+  font-size: 12px;
+  color: #fff !important;
+  padding: 0 5px 0 0; }
+.wrap-article .ico-sign,
+.wrap-article .ico-media,
+.wrap-article .ico-official {
+  width: 20px;
+  height: 20px;
+  background: url(../img/spr-label.png);
+  display: inline-block;
+  margin-right: 5px; }
+.wrap-article .ico-media {
+  background-position: -20px 0; }
+.wrap-article .ico-official {
+  background-position: -40px 0; }
+.wrap-article .label-sign .ico-sign {
+  background-position: -60px 0; }
+.wrap-article .label-media .ico-media {
+  background-position: -80px 0; }
+.wrap-article .label-official .ico-official {
+  background-position: -100px 0; }
+
+/*# sourceMappingURL=label.css.map */

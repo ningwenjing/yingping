@@ -1,13 +1,15 @@
 @media only screen and (max-width:768px){
     
-.article-wrap{overflow-y: auto;height: 100vh;width: 100vw;overflow-x: hidden;-webkit-overflow-scrolling: touch}
+.article-wrap{overflow-y: auto;height: 100vh;overflow-x: hidden;-webkit-overflow-scrolling: touch}
     a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
     .ico-c-opt,.ico-c-finish,.ico-c-finish.done:after,.ico-praise,.ico-c-comment,.ico-l-view,.ico-l-comment,.ico-l-time,.ico-arw,.boutique:before,.ico-quote,.ico-edit,.ico-delete,.ico-tips,.ico-art-note,.ico-art-ok,.ico-draft,.ico-sign,.ico-exclusive,.ico-back,.ico-write,.ico-media{background-image:url(../img/spr-article-m.png) ;background-size: 260px auto;}
 
     html,body{font-size: 15.625vw;font-family: Helvetica,\5FAE\8F6F\96C5\9ED1;}
     ::-webkit-scrollbar{display: none;}
+    .article-wrap .header{padding: 0 .2rem;box-sizing: border-box;}
     .list-title .art-in{display: -webkit-box;-webkit-box-align: center;}
     .article-banner{height: 4.34rem;}
+    .article-banner:after{height: 80%;}
     .art-upload-bg{height: 100%;}
     .art-side,.art-opt,.article-count,.art-wp-btn a:nth-child(2),.art-author,.link-top,.card-info,.side-art,.ico-exclusive,.face,.share-box,.comment-list-wp:hover .link-comment,.side-opt{display: none;}
     .art-in{width: auto;}
@@ -22,8 +24,8 @@
     .article-info .art-in{width: 100%;}
     .article-info-des .about span{color: #666;vertical-align: top;}
     .article-info-des .about{font-size: .21rem;padding: 0 0 0 1.1rem;line-height: .64rem;}
-    .article-main{margin: .3rem;padding: .65rem 0 0;font-size: .26rem;}
-    .article-main-wp{min-width: auto;}
+    .article-main{padding: .65rem 0 0;font-size: .26rem;margin: 0 .3rem;}
+    .article-main-wp{width: 100%;}
     .art-wp-btn a{font-size: .28rem}
     .art-author{font-size: .2rem}
     .art-user-box{left: .3rem;top: 1.2rem; width: .64rem;height: .64rem;}
@@ -36,7 +38,7 @@
     .txt-num{display: none;}
     .txt-comment{font-size: .2rem;}
     .topic-time, .txt-num{font-size: .2rem;}
-    .link-login-tips{z-index: 3;background: #f2f2f2}
+    .link-login-tips{z-index: 3;background: #f2f2f2;display: none;}
  
     .reply .link-login-tips{left: 0;top: 0;}
     .art-upload-bg,.article-next,.article-banner:after,.article-info{width: 100%;}
@@ -52,8 +54,7 @@
     
     .comment-list{padding-bottom: .5rem;}
     .comment-list>ul>li{padding: 0 .2rem;}
-    .btn-send,.link-login-tips{border-radius: .15rem;}
-    .btn-send{width: 1rem;height: .44rem;line-height: .44rem;}
+    .btn-send{border-radius: .15rem;width: 1rem;height: .44rem;line-height: .44rem;}
     .quote{border-radius: .15rem;}
     .area-reply{border-radius: .15rem;height: 1rem;border: 0;background: #f2f2f2;font-size: .2rem;}
     .comment-list-wp .v-comment.open:before{border-color: #f2f2f2;background: #f2f2f2}
@@ -79,7 +80,7 @@
    
     .list-title{margin:0 .2rem ;}
     .article-list-main .boutique{border-radius: .1rem;margin: 0 0 .2rem;}
-    .article-list-main{margin:  0 .2rem;}
+    .article-wrap .article-list-main{margin:  0 .2rem;}
     .article-list-main .art-img{border-radius: .1rem;width: 2.5rem;height: 1.7rem;}
     .article-list-main .art-pic{width: 2.5rem;height: 1.7rem;background-position: center;}
     .boutique .art-img,.boutique .art-pic{width: 100%;height: 100%;}
@@ -133,5 +134,7 @@
     .loading{color: #999;display: flex;align-items: center;justify-content: center;margin: .2rem 0;}
     .loading .ico-load{position: static;left: 0;margin: 0;display: block;zoom: .4;margin: 0 .1rem 0 0;}
     #loginIframe{width: 100vw;height: 100vh;position: fixed;left: 0;top: 0;z-index: 99999;}
+    .iframe-video{width: 100%; height: 4rem;}
+    .edit-video-tit,.label-video{width: 100%;font-size: .22rem;}
     
 }

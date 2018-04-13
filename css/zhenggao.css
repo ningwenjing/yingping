@@ -1,0 +1,10 @@
+.ico-active{position: absolute;right: 24px;top: -70px;width: 97px;height: 88px;line-height: 100;overflow: hidden;background: url(../img/act/ico-active.png) no-repeat;}
+.img-gift{width: 82px;}
+.ico-tag{display:inline-block;width: 47px;height: 18px;line-height: 18px; background: #ff7166; color:#fff;text-align:center;clip-path: polygon(0% 27%,10.6% 0,100% 0, 100% 73%,91% 100%,0 100%);font-size: 12px;vertical-align: middle;margin: 0 0 0 6px;}
+.article-list-main .art-des h2{display: flex;align-items: center;}
+.art-des h2 a{display: inline-block !important;}
+
+.art-side{right: 0 !important;}
+.act-pic{width: 115px;height: 92px;display: block;}
+.art-side:hover{transform: none !important;}
+.article-info.fixed .ico-active{display:none;}

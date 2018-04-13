@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/article.css">
+  <link rel="stylesheet" href="css/art-linktoken.css">
+  <title>弹窗</title>
+  <style>
+    .td-cover{display: block;}
+    .td-dialog{display: inline-block;margin: 10px;vertical-align: top;}
+  </style>
+</head>
+
+<body>
+<div class="td-cover">
+  <!-- 打赏 -->
+  <div class="td-dialog">
+    <div class="td-dialog__header">
+      <a href="#" class="td-dialog__close" title="关闭">
+        <i class="td-icon-close"></i>
+      </a>
+    </div>
+    <div class="td-dialog__body">
+      <p class="title-linktoken">给 <span class="user-name">小小小小鸟</span>打赏</p>
+      <ul class="pay-linktoken">
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">1链克</span>
+        </li>
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">5链克</span>
+        </li>
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">10链克</span>
+        </li>
+        <li class="is-chosen">
+          <input type="text" class="ipt-num" placeholder="自定义">
+        </li>
+      </ul>
+      <div class="pay-type">
+        <div class="wallet">
+          <p class="balance">钱包余额：<span class="num">368.58</span>链克</p>
+          <a href="javascript:;" class="td-button">打赏</a>
+        </div>
+        <a href="#" class="tips-code">使用二维码方式打赏</a>
+        <p class="note-linktoken"><i class="icon-note"></i>打赏链克的40%会进入文章评论奖池</p>
+      </div>
+    </div>
+  </div>
+  <!-- 打赏余额不足 -->
+    <div class="td-dialog">
+    <div class="td-dialog__header">
+      <a href="#" class="td-dialog__close" title="关闭">
+        <i class="td-icon-close"></i>
+      </a>
+    </div>
+    <div class="td-dialog__body">
+      <p class="title-linktoken">给 <span class="user-name">小小小小鸟</span>打赏</p>
+      <ul class="pay-linktoken">
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">1链克</span>
+        </li>
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">5链克</span>
+        </li>
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">10链克</span>
+        </li>
+        <li class="is-chosen">
+          <input type="text" class="ipt-num" placeholder="自定义">
+        </li>
+      </ul>
+      <div class="pay-type">
+        <div class="wallet">
+          <p class="balance">钱包余额：<span class="num">0.58</span>链克 <span class="note"><i class="icon-note"></i>余额不足</span></p>
+          <a href="javascript:;" class="td-button is-disabled">打赏</a>
+        </div>
+        <a href="#" class="tips-code">使用二维码方式打赏</a>
+        <p class="note-linktoken"><i class="icon-note"></i>打赏链克的40%会进入文章评论奖池</p>
+      </div>
+    </div>
+  </div>
+  <!-- 使用二维码打赏 -->
+  <div class="td-dialog">
+    <div class="td-dialog__header">
+      <a href="#" class="td-dialog__close" title="关闭">
+        <i class="td-icon-close"></i>
+      </a>
+    </div>
+    <div class="td-dialog__body">
+      <p class="title-linktoken">给 <span class="user-name">小小小小鸟</span>打赏</p>
+      <ul class="pay-linktoken">
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">1链克</span>
+        </li>
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">5链克</span>
+        </li>
+        <li>
+          <span class="icon-linktoken linktoken-m"></span><span class="num">10链克</span>
+        </li>
+        <li class="is-chosen">
+          <input type="text" class="ipt-num" placeholder="自定义">
+        </li>
+      </ul>
+      <div class="pay-type">
+        <div class="code-linktoken">
+          <p>使用链克钱包扫描二维码</p>
+          <div class="code">
+              <img src="http://img.vip.kanimg.com/n_vip_7/img-y16/base/vipqqbig.png?version=20170427" alt="二维码">
+          </div>
+        </div>
+        <a href="#" class="tips-code">余额支付 (余额<span>0.52</span>链克）</a>
+        <p class="note-linktoken"><i class="icon-note"></i>打赏链克的40%会进入文章评论奖池</p>
+      </div>
+    </div>
+  </div>
+  <!-- 打赏成功 -->
+  <div class="td-dialog">
+    <div class="td-dialog__header">
+      <a href="#" class="td-dialog__close" title="关闭"><i class="td-icon-close"></i></a>
+    </div>
+    <div class="td-dialog__body">
+      <p class="title-linktoken title-result"><i class="icon-linktoken-success"></i>打赏成功，感谢您的支持</p>
+    </div>
+    <div class="td-dialog__footer">
+        <a href="#" class="link-footer">给作者捎句话</a>
+    </div>
+  </div>
+  <!-- 给作者捎句话 -->
+  <div class="td-dialog">
+    <div class="td-dialog__header">
+      <a href="#" class="td-dialog__close" title="关闭"><i class="td-icon-close"></i></a>
+    </div>
+    <div class="td-dialog__body">
+      <p class="title-linktoken title-result"><i class="icon-linktoken-success"></i>打赏成功，感谢您的支持</p>
+    </div>
+    <div class="td-dialog__footer">
+      <div class="reply-area">
+        <input type="text" class="ipt-reply">
+        <span class="tag-num">1/20</span>
+        <div class="reply-option">
+          <a href="#" class="icon-send" title="发送"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 评论奖池列表剩余 -->
+  <div class="td-dialog">
+    <div class="td-dialog__header">
+      <a href="#" class="td-dialog__close" title="关闭"><i class="td-icon-close"></i></a>
+      <p class="title-linktoken">评论奖池列表剩余</p>
+      <p class="num-linktoken"><i class="icon-linktoken linktoken-l"></i> 19.23</p>
+    </div>
+    <div class="td-dialog__body">
+      <div class="comment-record">
+        <p class="title-record">评论中奖记录</p>
+        <ul class="record-list">
+          <li>
+            <a href="#" class="user-pic"><img data-v-e1596ea8="" src="http://img2.user.kanimg.com/usrimg/693489977/default/1511603108/300x300"></a>
+            <p class="record-content"><a href="#" class="user-name">我是一只小小小小小鸟</a> 的评论 <span class="text-record-content">哈哈哈哈哈哈哈哈哈哈哈哈好棒！</span></p>
+            <p class="record-num"><i class="icon-linktoken linktoken-s"></i>1587</p>
+          </li>
+          <li>
+            <a href="#" class="user-pic"><img data-v-e1596ea8="" src="http://img2.user.kanimg.com/usrimg/693489977/default/1511603108/300x300"></a>
+            <p class="record-content"><a href="#" class="user-name">我是一只小小小小小鸟</a> 的评论 <span class="text-record-content">哈哈哈哈哈哈哈哈哈哈哈哈好棒！</span></p>
+            <p class="record-num"><i class="icon-linktoken linktoken-s"></i>1587</p>
+          </li>
+          <li>
+            <a href="#" class="user-pic"><img data-v-e1596ea8="" src="http://img2.user.kanimg.com/usrimg/693489977/default/1511603108/300x300"></a>
+            <p class="record-content"><a href="#" class="user-name">我是一只小小小小小鸟</a> 的评论 <span class="text-record-content">哈哈哈哈哈哈哈哈哈哈哈哈好棒！</span></p>
+            <p class="record-num"><i class="icon-linktoken linktoken-s"></i>1587</p>
+          </li>
+          <li>
+            <a href="#" class="user-pic"><img data-v-e1596ea8="" src="http://img2.user.kanimg.com/usrimg/693489977/default/1511603108/300x300"></a>
+            <p class="record-content"><a href="#" class="user-name">我是一只小小小小小鸟</a> 的评论 <span class="text-record-content">哈哈哈哈哈哈哈哈哈哈哈哈好棒！</span></p>
+            <p class="record-num"><i class="icon-linktoken linktoken-s"></i>1587</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="td-dialog__footer">
+        <p class="note-linktoken"><i class="icon-note"></i>发表评论即有机会获得部分链克奖励</p>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

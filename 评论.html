@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/article.css">
+  <link rel="stylesheet" href="css/emoji.css">
+</head>
+
+<body>
+  <section class="comment-panel">
+    <div class="com-panel-tit art-in">
+      <h2>评论</h2>
+      <p>（
+        <span>5585</span>）</p>
+    </div>
+    <div class="art-in comment-write">
+      <div class="user-comment">
+        <a href="#" class="user-pic">
+          <img src="http://img2.user.kanimg.com/usrimg/683529917/300x300" alt="头像">
+        </a>
+      </div>
+      <div class="comment-write-main">
+        <!-- 注：获取焦点时，comment-write-main请叠加类名“focus” -->
+        <textarea class="area-write" placeholder="你看想要说点什么..."></textarea>
+        <!-- <input type="text" class="input-write" placeholder="你看想要说点什么..." /> -->
+        <!-- <a href="#" class="link-login-tips"><span>登录</span>发评论，和千万成雷友互动</a> -->
+        <div class="write-bottom">
+          <p class="txt-num">
+            <span>0</span>/100</p>
+          <div class="face">
+            <a href="javascript:;" class="ico-face" title="表情"></a>
+            <!-- 点击叠加“ face-up” -->
+            <div class="emoji">
+              <ul class="scroll-box">
+                <li title="开心">
+                  <span class="ico-emoji emoji-1F604"></span>
+                </li>
+                <li title="可爱">
+                  <span class="ico-emoji emoji-1F60A"></span>
+                </li>
+                <li title="大笑">
+                  <span class="ico-emoji emoji-1F603"></span>
+                </li>
+                <li title="憨笑">
+                  <span class="ico-emoji emoji-263A"></span>
+                </li>
+                <li title="眨眼">
+                  <span class="ico-emoji emoji-1F609"></span>
+                </li>
+                <li title="色">
+                  <span class="ico-emoji emoji-1F60D"></span>
+                </li>
+                <li title="爱你">
+                  <span class="ico-emoji emoji-1F618"></span>
+                </li>
+                <li title="亲亲">
+                  <span class="ico-emoji emoji-1F61A"></span>
+                </li>
+                <li title="脸红">
+                  <span class="ico-emoji emoji-1F633"></span>
+                </li>
+                <li title="满意">
+                  <span class="ico-emoji emoji-1F60C"></span>
+                </li>
+                <li title="傻笑">
+                  <span class="ico-emoji emoji-1F601"></span>
+                </li>
+                <li title="鬼脸">
+                  <span class="ico-emoji emoji-1F61C"></span>
+                </li>
+                <li title="吐舌">
+                  <span class="ico-emoji emoji-1F61D"></span>
+                </li>
+                <li title="无语">
+                  <span class="ico-emoji emoji-1F612"></span>
+                </li>
+                <li title="得意">
+                  <span class="ico-emoji emoji-1F60F"></span>
+                </li>
+                <li title="汗">
+                  <span class="ico-emoji emoji-1F613"></span>
+                </li>
+                <li title="失望">
+                  <span class="ico-emoji emoji-1F614"></span>
+                </li>
+                <li title="低落">
+                  <span class="ico-emoji emoji-1F61E"></span>
+                </li>
+                <li title="痛苦">
+                  <span class="ico-emoji emoji-1F616"></span>
+                </li>
+                <li title="焦虑">
+                  <span class="ico-emoji emoji-1F622"></span>
+                </li>
+                <li title="担心">
+                  <span class="ico-emoji emoji-1F630"></span>
+                </li>
+                <li title="震惊">
+                  <span class="ico-emoji emoji-1F628"></span>
+                </li>
+                <li title="悔恨">
+                  <span class="ico-emoji emoji-1F623"></span>
+                </li>
+                <li title="鼻涕">
+                  <span class="ico-emoji emoji-1F625"></span>
+                </li>
+                <li title="哭">
+                  <span class="ico-emoji emoji-1F62D"></span>
+                </li>
+                <li title="大哭">
+                  <span class="ico-emoji emoji-1F602"></span>
+                </li>
+                <li title="晕">
+                  <span class="ico-emoji emoji-1F632"></span>
+                </li>
+                <li title="惊恐">
+                  <span class="ico-emoji emoji-1F631"></span>
+                </li>
+                <li title="心烦">
+                  <span class="ico-emoji emoji-1F620"></span>
+                </li>
+                <li title="生气">
+                  <span class="ico-emoji emoji-1F621"></span>
+                </li>
+                <li title="睡觉">
+                  <span class="ico-emoji emoji-1F62A"></span>
+                </li>
+                <li title="口罩">
+                  <span class="ico-emoji emoji-1F637"></span>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="btn-write disable">发表评论</a>
+        </div>
+      </div>
+    </div>
+    <!-- 评论列表 开始 -->
+    <div class="comment-list">
+      <ul>
+        <li class="hot">
+          <div class="comment-list-wp art-in">
+            <span class="user-pic">
+              <img src="http://img.user.kanimg.com/usrimg/14499659/100x100" alt="头像">
+            </span>
+            <p class="topic-txt">
+              <a href="#" class="user-name">春夏秋冬</a>
+            </p>
+            <p class="txt-comment">开车开的都是什么车？宝马，奔驰还是、、、、、</p>
+            <p class="topic-time">1月18日，14:18</p>
+            <div class="topic-option">
+              <!-- 举报 -->
+              <div class="comment-report">
+                <a href="javascript:;" class="link-report done">已举报</a>
+                <div class="drop-reason">
+                  <p>选中举报原因</p>
+                  <div class="drop-reason-list">
+                    <a href="#" class="cho">色情</a>
+                    <a href="#">暴力</a>
+                    <a href="#">广告</a>
+                    <a href="#">政治</a>
+                    <a href="#">其它</a>
+                  </div>
+                </div>
+              </div>
+              <!-- 举报 END -->
+              <a href="#" class="v-comment" title="回复"></a>
+              <!-- 回复文本框打开时叠加类名“open” -->
+              <a href="#" class="v-praise">
+                <span class="ico-praise"></span>12252</a>
+            </div>
+            <!-- 回复内容 -->
+            <div class="reply">
+              <textarea class="area-reply">回复 sxgygys</textarea>
+
+              <div class="reply-info">
+                <p class="txt-num">
+                  <span>0</span>/100</p>
+                <a href="#" class="btn-send">发送</a>
+              </div>
+            </div>
+            <!-- 回复内容END -->
+          </div>
+        </li>
+        <li class="hot">
+          <div class="comment-list-wp art-in">
+            <span class="user-pic">
+              <img src="http://img.user.kanimg.com/usrimg/14499659/100x100" alt="头像">
+            </span>
+            <p class="topic-txt">
+              <a href="#" class="user-name name-vip">jllyy@163.com</a>
+              <a href="#" title="vip" class="icvip icsuper04"></a>
+            </p>
+            <p class="txt-comment">什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈</p>
+            <p class="topic-time">1月19日，21:55</p>
+            <div class="topic-option">
+              <div class="comment-report">
+                <a href="javascript:;" class="link-report">举报</a>
+                <div class="drop-reason">
+                  <p>选中举报原因</p>
+                  <div class="drop-reason-list">
+                    <a href="#" class="cho">色情</a>
+                    <a href="#">暴力</a>
+                    <a href="#">广告</a>
+                    <a href="#">政治</a>
+                    <a href="#">其它</a>
+                  </div>
+
+                </div>
+              </div>
+              <a href="#" class="v-comment" title="回复"></a>
+              <a href="#" class="v-praise done">
+                <span class="ico-praise"></span>852</a>
+            </div>
+            <div class="reply">
+              <textarea class="area-reply">回复 sxgygys</textarea>
+              <div class="reply-info">
+                <p class="txt-num">
+                  <span>0</span>/100</p>
+                <a href="#" class="btn-send">发送</a>
+              </div>
+            </div>
+            <p class="txt-hot">以上是热门评论</p>
+          </div>
+        </li>
+        <li>
+          <div class="comment-list-wp art-in">
+            <span class="user-pic">
+              <img src="http://img.user.kanimg.com/usrimg/14499659/100x100" alt="头像">
+            </span>
+            <p class="topic-txt">
+              <a href="#" class="user-name">jllyy@163.com</a>
+              <span class="ico-publish"></span>
+            </p>
+            <p class="txt-comment">什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈</p>
+            <div class="quote">
+              <a href="#">
+                <b class="quote-author">名字名字名字</b>
+              </a>
+              <span class="quote-des">666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
+                </span>
+              <div class="quote-info">
+                <a href="#" title="回复" class="link-comment">回复</a>
+              </div>
+              <div class="reply" style="display:block;">
+                <textarea class="area-reply">回复 sxgygys</textarea>
+                <div class="reply-info">
+                  <p class="txt-num">
+                    <span>0</span>/100</p>
+                  <div class="face">
+                    <a href="javascript:;" class="ico-face"></a>
+                    <!-- 表情 -->
+                    <div class="emoji" style="display:none;">
+                      <ul class="scroll-box">
+                        <li title="开心">
+                          <span class="ico-emoji emoji-1F604"></span>
+                        </li>
+                        <li title="可爱">
+                          <span class="ico-emoji emoji-1F60A"></span>
+                        </li>
+                        <li title="大笑">
+                          <span class="ico-emoji emoji-1F603"></span>
+                        </li>
+                        <li title="憨笑">
+                          <span class="ico-emoji emoji-263A"></span>
+                        </li>
+                        <li title="眨眼">
+                          <span class="ico-emoji emoji-1F609"></span>
+                        </li>
+                        <li title="色">
+                          <span class="ico-emoji emoji-1F60D"></span>
+                        </li>
+                        <li title="爱你">
+                          <span class="ico-emoji emoji-1F618"></span>
+                        </li>
+                        <li title="亲亲">
+                          <span class="ico-emoji emoji-1F61A"></span>
+                        </li>
+                        <li title="脸红">
+                          <span class="ico-emoji emoji-1F633"></span>
+                        </li>
+                        <li title="满意">
+                          <span class="ico-emoji emoji-1F60C"></span>
+                        </li>
+                        <li title="傻笑">
+                          <span class="ico-emoji emoji-1F601"></span>
+                        </li>
+                        <li title="鬼脸">
+                          <span class="ico-emoji emoji-1F61C"></span>
+                        </li>
+                        <li title="吐舌">
+                          <span class="ico-emoji emoji-1F61D"></span>
+                        </li>
+                        <li title="无语">
+                          <span class="ico-emoji emoji-1F612"></span>
+                        </li>
+                        <li title="得意">
+                          <span class="ico-emoji emoji-1F60F"></span>
+                        </li>
+                        <li title="汗">
+                          <span class="ico-emoji emoji-1F613"></span>
+                        </li>
+                        <li title="失望">
+                          <span class="ico-emoji emoji-1F614"></span>
+                        </li>
+                        <li title="低落">
+                          <span class="ico-emoji emoji-1F61E"></span>
+                        </li>
+                        <li title="痛苦">
+                          <span class="ico-emoji emoji-1F616"></span>
+                        </li>
+                        <li title="焦虑">
+                          <span class="ico-emoji emoji-1F622"></span>
+                        </li>
+                        <li title="担心">
+                          <span class="ico-emoji emoji-1F630"></span>
+                        </li>
+                        <li title="震惊">
+                          <span class="ico-emoji emoji-1F628"></span>
+                        </li>
+                        <li title="悔恨">
+                          <span class="ico-emoji emoji-1F623"></span>
+                        </li>
+                        <li title="鼻涕">
+                          <span class="ico-emoji emoji-1F625"></span>
+                        </li>
+                        <li title="哭">
+                          <span class="ico-emoji emoji-1F62D"></span>
+                        </li>
+                        <li title="大哭">
+                          <span class="ico-emoji emoji-1F602"></span>
+                        </li>
+                        <li title="晕">
+                          <span class="ico-emoji emoji-1F632"></span>
+                        </li>
+                        <li title="惊恐">
+                          <span class="ico-emoji emoji-1F631"></span>
+                        </li>
+                        <li title="心烦">
+                          <span class="ico-emoji emoji-1F620"></span>
+                        </li>
+                        <li title="生气">
+                          <span class="ico-emoji emoji-1F621"></span>
+                        </li>
+                        <li title="睡觉">
+                          <span class="ico-emoji emoji-1F62A"></span>
+                        </li>
+                        <li title="口罩">
+                          <span class="ico-emoji emoji-1F637"></span>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                  <a href="#" class="btn-send">发送</a>
+                </div>
+              </div>
+            </div>
+            <p class="topic-time">1月19日，21:55</p>
+            <div class="topic-option">
+              <div class="comment-report">
+                <a href="javascript:;" class="link-report">举报</a>
+                <div class="drop-reason">
+                  <p>选中举报原因</p>
+                  <div class="drop-reason-list">
+                    <a href="#" class="cho">色情</a>
+                    <a href="#">暴力</a>
+                    <a href="#">广告</a>
+                    <a href="#">政治</a>
+                    <a href="#">其它</a>
+                  </div>
+
+                </div>
+              </div>
+              <a href="#" class="v-comment" title="回复"></a>
+              <a href="#" class="v-praise done" title="点赞">
+                <span class="ico-praise"></span>852</a>
+            </div>
+            <div class="reply">
+              <textarea class="area-reply">回复 sxgygys</textarea>
+              <a href="#" class="link-login-tips">
+                <span>登录</span>发评论，和千万成雷友互动</a>
+              <div class="reply-info">
+                <p class="txt-num">
+                  <span>3</span>/100</p>
+                <a href="#" class="btn-send disable">发送</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="comment-list-wp art-in">
+            <span class="user-pic">
+              <img src="http://img.user.kanimg.com/usrimg/14499659/100x100" alt="头像">
+            </span>
+            <p class="topic-txt">
+              <a href="#" class="user-name">jllyy@163.com</a>
+              <span class="ico-publish"></span>
+              <a href="#" title="vip" class="icvip icsuper04"></a>
+            </p>
+            <p class="txt-comment">什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈</p>
+            <p class="quote">
+              <a href="#">
+                <b class="quote-author">名字名字名字</b>
+              </a>
+              <span class="quote-des">666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666</span>
+            </p>
+            <p class="topic-time">1月19日，21:55</p>
+            <div class="topic-option">
+              <div class="comment-report">
+                <a href="javascript:;" class="link-report">举报</a>
+                <div class="drop-reason">
+                  <p>选中举报原因</p>
+                  <div class="drop-reason-list">
+                    <a href="#" class="cho">色情</a>
+                    <a href="#">暴力</a>
+                    <a href="#">广告</a>
+                    <a href="#">政治</a>
+                    <a href="#">其它</a>
+                  </div>
+
+                </div>
+              </div>
+              <a href="#" class="v-comment" title="回复"></a>
+              <a href="#" class="v-praise done" title="点赞">
+                <span class="ico-praise"></span>852</a>
+            </div>
+            <div class="reply">
+              <textarea class="area-reply">回复 sxgygys</textarea>
+              <div class="reply-info">
+                <p class="txt-num">
+                  <span>3</span>/100</p>
+                <a href="#" class="btn-send disable">发送</a>
+                <div class="face">
+                  <a href="javascript:;" class="ico-face"></a>
+                  <!-- 表情 -->
+                  <div class="emoji">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <!-- 删除评论 2018.03.07 -->
+        <li>
+          <div class="comment-list-wp art-in">
+            <span class="user-pic">
+              <img src="http://img.user.kanimg.com/usrimg/14499659/100x100" alt="头像">
+            </span>
+            <p class="topic-txt">
+              <a href="#" class="user-name">爱删除的小姐姐</a>
+              <a href="#" title="vip" class="icvip icsuper04"></a>
+            </p>
+            <p class="txt-comment">什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈什么鬼评论啊哈哈哈哈这是什么鬼啊哈哈哈哈哈哈</p>
+            <p class="quote">
+              <span class="quote-des">
+                <i class="txt-deleted">该评论已被删除</i>
+              </span>
+            </p>
+            <p class="topic-time">1月19日，21:55</p>
+            <div class="topic-option">
+              <a href="#" class="v-delete" title="删除">
+                <i></i>
+              </a>
+              <a href="#" class="v-comment" title="回复"></a>
+              <a href="#" class="v-praise done" title="点赞">
+                <span class="ico-praise"></span>852</a>
+            </div>
+            <div class="reply">
+              <textarea class="area-reply">回复 sxgygys</textarea>
+              <div class="reply-info">
+                <p class="txt-num">
+                  <span>3</span>/100</p>
+                <a href="#" class="btn-send disable">发送</a>
+                <div class="face">
+                  <a href="javascript:;" class="ico-face"></a>
+                  <!-- 表情 -->
+                  <div class="emoji">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- 删除评论 2018.03.07 END -->
+      </ul>
+      <div class="art-in">
+        <a href="#" class="load-more">加载更多
+          <span class="ico-arw"></span>
+        </a>
+      </div>
+      </div>
+      <!-- 评论列表 结束 -->
+      <!-- 移动端评论框 -->
+      <div class="comment-fixed" style="display:none">
+        <a href="#" class="link-f-write">说说你的想法</a>
+        <a href="#" class="link-f-comment">
+          <i class="ico-f-comment"></i>
+          <span class="num">99</span>
+        </a>
+      </div>
+      <!-- 移动端评论框 -->
+  </section>
+</body>
+
+</html>
